@@ -1,0 +1,31 @@
+# As bibliotecas importadas
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+yfinance
+pandas_datareader
+
+# As versões das bibliotecas 
+pandas>=2.3
+numpy>=2.0
+matplotlib>=3.10
+seaborn>=0.13
+scipy>=1.16
+yfinance>=0.2
+jupyternotebook
+
+"""Instalação das bibliotecas
+No terminal do VS Code:"""
+# Bibliotecas instaladas
+pip install pandas
+pip install pandas_datareader
+pip install yfinance
+pip install matplotlib
+pip install seaborn
+pip install scipy
+pip install numpy
+
+""" Nota: Como o Yahoo Finance atualmente apresenta incompatibilidades com o pandas_datareader,
+utilizaremos o yfinance, que será integrado ao pandas_datareader."""
